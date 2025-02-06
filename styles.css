@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    overflow: hidden;
+    background-color: #111; /* Fallback background color */
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem; /* Increased font size */
+    margin-bottom: 30px;
+    color: #fff; /* White text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Drop shadow */
+    -webkit-text-stroke: 2px black; /* Black stroke */
+}
+
+.game-modes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.game-mode {
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.game-mode:hover {
+    transform: translateY(-5px);
+}
+
+.game-mode img {
+    width: 100%;
+    height: auto;
+}
+
+.game-mode h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
